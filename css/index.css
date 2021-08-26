@@ -1,3 +1,5 @@
+/* RESET CSS*/
+
 * {
     padding: 0;
     margin: 0;
@@ -11,8 +13,11 @@
 main {
     margin-top: 150px;
     width: 100%;
-    height: 1200px;
+    height: auto;
 }
+
+
+/*MENU*/
 
 .logo img {
     width: 120px;
@@ -108,4 +113,43 @@ main {
 .preco a {
     font-size: 90%;
     color: rgb(0, 0, 0);
+}
+
+
+/*FOOTER*/
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #ffba00;
+}
+
+.footer {
+    padding: 60px 0 60px 0;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #36912a;
+}
+
+#dados-academicos {
+    background-color: #cc2e13;
+}
+
+#dados-menu {
+    background-color: #1347cc;
+}
+
+#dados-social {
+    background-color: #cc13bd;
+}
+
+#dados-academicos {
+    font-family: 'Nunito', Helvetica, Arial, Lucida, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: white;
 }
