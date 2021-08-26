@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAtsGUYevN.ttf" crossorigin="">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="lib/bulma.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Doces da vovó</title>
+</head>
+
+<body>
+    <main>
+        <!--MENU-->
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <div class="logo">
+                        <img src="img/logo/vovo_logo.png" alt="Logo">
+                    </div>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start" id="btn-menu">
+                        <a class="navbar-item btn active">Home</a>
+                        <a class="navbar-item btn">Quem somos</a>
+                        <a class="navbar-item btn">Contato</a>
+                        <a class="navbar-item btn">Localização</a>
+                    </div>
+
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <a class="button is-primary">
+                                    <strong>Revendedor</strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <article class="content container">
+            <!-- Swiper -->
+            <div class="swiper container">
+                <h2>Mais Vendidos</h2>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/maisVendidos/Bananinha-sem-Adicao-de-Acucarfe95.jpg" alt="produto" />
+                        <div class="info-produto">
+                            <div class="nome">
+                                <div class="nome-a">
+                                    <a href="#">Nome Loram Ipsim Doce Bomjardim Almeida de souza</a>
+                                </div>
+                            </div>
+                            <div class="preco">
+                                <p href="#">Preço</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+        </article>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="js/index.js"></script>
+</body>
+
+</html>
