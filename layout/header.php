@@ -25,7 +25,7 @@
             <div class="container">
                 <div class="navbar-brand">
                     <div class="logo">
-                        <img src="img/logo/vovo_logo.png" alt="Logo">
+                        <img src="img/logo/Zeca_logo.png" alt="Logo">
                     </div>
 
                     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -55,52 +55,3 @@
                 </div>
             </div>
         </nav>
-        <!--PRODUTOS SLIDER-->
-        <article class="content container">
-            <!-- Swiper -->
-            <div class="swiper container">
-                <h2>Mais Vendidos</h2>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/maisVendidos/Bananinha-sem-Adicao-de-Acucarfe95.jpg" alt="produto" />
-                        <div class="info-produto">
-                            <div class="nome">
-                                <div class="nome-a">
-                                    <a href="#">Nome Loram Ipsim Doce Bomjardim Almeida de souza</a>
-                                </div>
-                            </div>
-                            <div class="preco">
-                                <p href="#">Preço</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-        </article>
-        <section class="rodape ">
-            <article class="footer">
-                <div id="dados-academicos">
-                    <h2>SUPERIOR DE TECNOLOGIA EM SISTEMAS</h2>
-                    <h3>DISCIPLINA: BACK END I</h3>
-                    <p>NOME: ANDRE LUIS BOMJARDIM DOS SANTOS</p>
-                    <p>RA: 1877561-5</p>
-                </div>
-                <div id="dados-menu">
-                    <ul>
-                        <li>Home</li>
-                        <li>Quem Somos</li>
-                        <li>Localização</li>
-                        <li>Contato</li>
-                    </ul>
-                </div>
-                <div id="dados-social">
-                    ...
-                </div>
-            </article>
-        </section>
-        <script src="lib/swiper.js"></script>
-        <script src="js/index.js"></script>
-</body>
-
-</html>
