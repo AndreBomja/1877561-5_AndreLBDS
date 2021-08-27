@@ -1,4 +1,5 @@
 <?php 
+    $pagina = 'index';
     include 'layout/header.php';
 ?>
         <!--PRODUTOS SLIDER-->

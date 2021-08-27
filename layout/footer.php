@@ -23,8 +23,17 @@
                 </div>
             </article>
         </section>
-        <script src="lib/swiper.js"></script>
-        <script src="js/index.js"></script>
+        <?php if ($pagina === "index") : ?>
+
+            <?php  echo '<script src="lib/swiper.js"></script>'?>
+            <?php  echo '<script src="js/index.js"></script>'?>
+        <?php endif; ?>
+        <?php if ($pagina === "quemSomos") : ?>
+            <?php  echo '<script src="../lib/swiper.js"></script>'?>
+            <?php  echo '<script src="../js/index.js"></script>'?>
+        <?php endif; ?>
+        <!-- <script src="lib/swiper.js"></script>
+        <script src="js/index.js"></script> -->
 </body>
 
 </html>

@@ -12,9 +12,22 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link rel="stylesheet" href="lib/bulma.css">
+    <!-- <link rel="stylesheet" href="lib/bulma.css">
     <link rel="stylesheet" href="lib/swiper.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css"> -->
+    
+    <?php if ($pagina === "index") : ?>
+        <?php  echo '<link type="text/css" rel="stylesheet" href="css/index.css"  media="screen,projection"/>'?>
+        <?php  echo '<link rel="stylesheet" href="lib/swiper.css" />' ?>
+        <?php  echo '<link rel="stylesheet" href="lib/bulma.css" />' ?>
+    <?php endif; ?>
+
+    <?php if ($pagina === "quemSomos"): ?>
+        <?php  echo '<link type="text/css" rel="stylesheet" href="../css/index.css"  media="screen,projection"/>' ?>
+        <?php  echo '<link rel="stylesheet" href="../lib/swiper.css" />' ?>
+        <?php  echo '<link rel="stylesheet" href="../lib/bulma.css" />' ?>
+    <?php endif; ?>
+    
     <title>Zeca doces</title>
 </head>
 
@@ -25,7 +38,17 @@
             <div class="container">
                 <div class="navbar-brand">
                     <div class="logo">
-                        <img src="img/logo/Zeca_logo.png" alt="Logo">
+                    <?php if ($pagina === "index") : ?>
+                    
+                        <?php  echo '<img src="img/logo/Zeca_logo.png" alt="Logo">'?>
+
+                    <?php endif; ?>
+                    <?php if ($pagina === "quemSomos") : ?>
+                    
+                        <?php  echo '<img src="../img/logo/Zeca_logo.png">'?>
+
+                    <?php endif; ?>
+                        <!-- <img src="img/logo/Zeca_logo.png" alt="Logo"> -->
                     </div>
 
                     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -37,10 +60,16 @@
 
                 <div id="navbarBasicExample" class="navbar-menu">
                     <div class="navbar-start" id="btn-menu">
-                        <a class="navbar-item btn active">Home</a>
-                        <a class="navbar-item btn">Quem somos</a>
-                        <a class="navbar-item btn">Contato</a>
-                        <a class="navbar-item btn">Localização</a>
+                    <?php if ($pagina === "index") : ?>
+                        <?php  echo '<a href="index.php"           class="navbar-item btn active">Home</a>'?>
+                        <?php  echo '<a href="pages/quemSomos.php" class="navbar-item btn ">Quem somos</a>'?>
+                        <?php  echo '<a href="pages/contato.php"      class="navbar-item btn ">Contato</a>'?>
+                    <?php endif; ?>
+                    <?php if ($pagina === "quemSomos") : ?>
+                        <?php  echo '<a href="../index.php"          class="navbar-item btn active">Home</a>'?>
+                        <?php  echo '<a href="../pages/quemSomos.php" class="navbar-item btn">Quem somos</a>'?>
+                        <?php  echo '<a href="../pages/contato.php"      class="navbar-item btn">Contato</a>'?>
+                    <?php endif; ?>
                     </div>
 
                     <div class="navbar-end">
