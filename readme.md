@@ -30,8 +30,8 @@ O mais moderno Mobile Touch Slider
 ## Tela da Home sendo executada 
 </br>
 
- <img width="600" src="tela1.gif" />
-
+ <img width="600" src="tela1.gif" /></br>
+ <img width="600" src="tela2.gif" />
 
 #### OS DIREITOS DE USO DAS IMAGENS, SÃO EXCLUSIVOS DE SEUS AUTORES, USO PARA DIDATÍCA
 #### PREÇO E TODO CONTEÚDO SÃO MERAMENTES ILUSTRATIVOS 
