@@ -9,17 +9,34 @@
                 <div id="dados-menu">
                     <nav>
                         <ul>
-                            <li><a href="../index.php" class="">Home</a></li>
-                            <li><a href="../index.php" class="">Quem somos</a></li>
-                            <li><a href="../index.php" class="">Contato</a></li>
-                            <li><a href="../index.php" class="">Localização</a></li>
+                        <?php if ($pagina === "index") : ?>
+                            <?php  echo  '<li><a href="index.php" class="">Home</a></li>'?>
+                            <?php  echo '<li><a href="index.php" class="">Quem somos</a></li>' ?>
+                            <?php  echo  '<li><a href="../index.php" class="">Contato</a></li> '?>
+                            <?php  echo '<li><a href="../index.php" class="">Localização</a></li>' ?>
+                        
+                        <?php endif; ?>
+                        <?php if ($pagina === "quemSomos" || $pagina === "produto" || $pagina === "contato") : ?>
+                            <?php  echo  '<li><a href="index.php" class="">Home</a></li>'?>
+                            <?php  echo '<li><a href="index.php" class="">Quem somos</a></li>' ?>
+                            <?php  echo  '<li><a href="index.php" class="">Contato</a></li> '?>
+                            <?php  echo '<li><a href="index.php" class="">Localização</a></li>' ?>
+                        <?php endif; ?>
+                          
                         </ul>
                     </nav>
                 </div>
                 <div id="dados-social">
-                    <a href=""><img src="img/social/social-facebook.png" alt=""></a>
-                    <a href=""><img src="img/social/social-twitter.png" alt=""></a>
-                    <a href=""><img src="img/social/social-youtube.png" alt=""></a>
+                <?php if ($pagina === "index") : ?>
+                            <?php  echo  '<a href=""><img src="img/social/social-facebook.png" alt=""></a>'?>
+                            <?php  echo '<a href=""><img src="img/social/social-twitter.png" alt=""></a>' ?>
+                            <?php  echo  '<a href=""><img src="img/social/social-youtube.png" alt=""></a>'?>
+                        <?php endif; ?>
+                        <?php if ($pagina === "quemSomos" || $pagina === "produto" || $pagina === "contato") : ?>
+                            <?php  echo  '<a href=""><img src="../img/social/social-facebook.png" alt=""></a>'?>
+                            <?php  echo '<a href=""><img src="../img/social/social-twitter.png" alt=""></a>' ?>
+                            <?php  echo  '<a href=""><img src="../img/social/social-youtube.png" alt=""></a>'?>
+                        <?php endif; ?>
                 </div>
             </article>
         </section>
@@ -28,7 +45,7 @@
             <?php  echo '<script src="lib/swiper.js"></script>'?>
             <?php  echo '<script src="js/index.js"></script>'?>
         <?php endif; ?>
-        <?php if ($pagina === "quemSomos") : ?>
+        <?php if ($pagina === "quemSomos" || $pagina === "produto" || $pagina === "contato") : ?>
             <?php  echo '<script src="../lib/swiper.js"></script>'?>
             <?php  echo '<script src="../js/index.js"></script>'?>
         <?php endif; ?>

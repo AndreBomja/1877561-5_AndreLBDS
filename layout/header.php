@@ -20,12 +20,15 @@
         <?php  echo '<link type="text/css" rel="stylesheet" href="css/index.css"  media="screen,projection"/>'?>
         <?php  echo '<link rel="stylesheet" href="lib/swiper.css" />' ?>
         <?php  echo '<link rel="stylesheet" href="lib/bulma.css" />' ?>
+        <?php  echo '<link rel="shortcut icon" href="img/logo/Zeca_ico.png" type="image/x-icon">' ?>
+        
     <?php endif; ?>
 
-    <?php if ($pagina === "quemSomos"): ?>
+    <?php if ($pagina === "quemSomos" || $pagina === "produto" || $pagina === "contato"): ?>
         <?php  echo '<link type="text/css" rel="stylesheet" href="../css/index.css"  media="screen,projection"/>' ?>
         <?php  echo '<link rel="stylesheet" href="../lib/swiper.css" />' ?>
         <?php  echo '<link rel="stylesheet" href="../lib/bulma.css" />' ?>
+        <?php  echo '<link rel="shortcut icon" href="../img/logo/Zeca_ico.png" type="image/x-icon">' ?>
     <?php endif; ?>
     
     <title>Zeca doces</title>
@@ -43,7 +46,7 @@
                         <?php  echo '<img src="img/logo/Zeca_logo.png" alt="Logo">'?>
 
                     <?php endif; ?>
-                    <?php if ($pagina === "quemSomos") : ?>
+                    <?php if ($pagina === "quemSomos" || $pagina === "produto" || $pagina === "contato") : ?>
                     
                         <?php  echo '<img src="../img/logo/Zeca_logo.png">'?>
 
@@ -65,7 +68,7 @@
                         <?php  echo '<a href="pages/quemSomos.php" class="navbar-item btn ">Quem somos</a>'?>
                         <?php  echo '<a href="pages/contato.php"      class="navbar-item btn ">Contato</a>'?>
                     <?php endif; ?>
-                    <?php if ($pagina === "quemSomos") : ?>
+                    <?php if ($pagina === "quemSomos" || $pagina === "produto" || $pagina === "contato") : ?>
                         <?php  echo '<a href="../index.php"          class="navbar-item btn active">Home</a>'?>
                         <?php  echo '<a href="../pages/quemSomos.php" class="navbar-item btn">Quem somos</a>'?>
                         <?php  echo '<a href="../pages/contato.php"      class="navbar-item btn">Contato</a>'?>

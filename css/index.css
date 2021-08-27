@@ -90,6 +90,7 @@ main {
 }
 
 .swiper-slide {
+    margin-bottom: 35px !important;
     justify-content: center;
     align-items: center;
 }
@@ -351,6 +352,129 @@ main {
     margin-bottom: 30px !important;
 }
 
+
+/*Pagina produtos*/
+
+.produto {
+    width: 100%;
+    background-color: #faf1f2;
+}
+
+.shadow {
+    height: 8px;
+    box-shadow: 0px 5px 2px -60px rgb(1 8 10 / 10%);
+}
+
+
+/*.container-produto {}*/
+
+.content-produto {
+    width: 80%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-produto-img {
+    width: 413px;
+    height: 413px;
+}
+
+.content-produto-img img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.content-produto-img legend {
+    margin-top: -10px;
+    font-size: 10px;
+}
+
+.content-produto-descricao {
+    margin: 0px 0px 0px 20px;
+}
+
+.content-produto-nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(248, 248, 248);
+    height: 70px;
+    width: 630px;
+}
+
+.content-produto-nome h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'nunito', sans-serif;
+    font-size: 35px;
+}
+
+.content-produto-desc {
+    line-height: 2em;
+    padding: 40px 40px 40px 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgb(248, 248, 248);
+    height: 205px;
+    width: 630px;
+}
+
+.content-produto-desc h2 {
+    font-family: 'nunito', sans-serif;
+    font-size: 16.5px;
+}
+
+.content-produto-price {
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #fc9302;
+    height: 42px;
+    width: 630px;
+}
+
+.content-produto-price h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'nunito', sans-serif;
+    font-size: 25px;
+}
+
+.content-produto-qtd-comprar {
+    display: flex;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgb(248, 248, 248);
+    height: 145px;
+    width: 630px;
+}
+
+.content-produto-qtd input {
+    margin: 10px;
+    background-color: rgb(248, 245, 240);
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid rgb(245, 211, 148);
+}
+
+.content-produto-comprar button {
+    margin: 10px;
+    background-color: rgb(248, 245, 240);
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(245, 211, 148);
+    padding: 15px;
+    font-family: 'nunito', sans-serif;
+    font-size: 18px;
+    color: #fc9302;
+    font-weight: bold;
+}
+
 @media (max-width: 600px) {
     .rodape {
         height: 360px !important;
@@ -369,5 +493,29 @@ main {
     }
     input {
         width: 100% !important;
+    }
+    /*.container-produto */
+    .content-produto {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-produto-img {
+        width: 320px;
+        height: 320px;
+    }
+    .content-produto-descricao {
+        margin: 20px 0px 0px 0px;
+    }
+    .content-produto-nome {
+        width: 320px;
+    }
+    .content-produto-desc {
+        width: 320px;
+    }
+    .content-produto-price {
+        width: 320px;
+    }
+    .content-produto-qtd-comprar {
+        width: 320px;
     }
 }
