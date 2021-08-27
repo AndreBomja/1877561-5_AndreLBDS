@@ -47,7 +47,7 @@ foreach ($dados as $key => $object) :
                                 <?php endif; ?>
                                 <?php if ($field == 'price') : ?>
                                     <?php
-                                    $preco = $value;
+                                    $preco = 'R$ '.$value;
                                     ?>
                                 <?php endif; ?>
                                 <?php if ($field == 'description') : ?>

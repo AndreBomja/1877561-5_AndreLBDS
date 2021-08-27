@@ -33,7 +33,7 @@ return array(
     array(
       'id' => '5',
       'img' => 'img/maisVendidos/Doce-Cremoso-com-Leitefe95.jpg',
-      'name' => 'Doce-Cremoso-com-Leitefe95.jpg',
+      'name' => 'Doce-Cremoso-com-Leitefe',
       'price' => '0,90',
       'description' => 'É isso que faz do Doce de Doce-Cremoso-com-Leite tão especial. Compactamos todas essas boas recordações dentro de um pote de 650g do doce mais delicioso que você vai provar hoje. Afinal, pelas nossas contas aqui, existem 99,9% de chances de você ter provado essa delícia pela primeira!'
     ),
@@ -73,7 +73,7 @@ return array(
     array(
       'id' => '1',
       'img' => 'img/tradicionais/Ambrosia-1fe95.jpg',
-      'name' => 'Ambrosia-1fe95.jpg',
+      'name' => 'Ambrosia',
       'price' => '1,90',
       'description' => 'É isso que faz do Doce de Doce-Ambrosia-1fe95.jpg tão especial. Compactamos todas essas boas recordações dentro de um pote de 650g do doce mais delicioso que você vai provar hoje. Afinal, pelas nossas contas aqui, existem 99,9% de chances de você ter provado essa delícia pela primeira vez'
     ),
@@ -94,7 +94,7 @@ return array(
     array(
       'id' => '4',
       'img' => 'img/tradicionais/Doce-de-Mamao-com-Cocofe95.jpg',
-      'name' => 'Doce-de-Mamao-com-Cocofe',
+      'name' => 'Doce-de-Mamao-com-Coco',
       'price' => '1,90',
       'description' => 'É isso que faz do Doce de Doce-de-Mamao-com-Coco tão especial. Compactamos todas essas boas recordações dentro de um pote de 650g do doce mais delicioso que você vai provar hoje. Afinal, pelas nossas contas aqui, existem 99,9% de chances de você ter provado essa delícia pela primeira vez!'
     ),
@@ -108,7 +108,7 @@ return array(
     array(
       'id' => '6',
       'img' => 'img/tradicionais/Geleia-de-Goiaba-Diet-1fe95.jpg',
-      'name' => 'Geleia-de-Goiaba-Diet-1fe',
+      'name' => 'Geleia-de-Goiaba-Diet',
       'price' => '1,90',
       'description' => 'É isso que faz do Doce de Geleia-de-Goiaba-Diet tão especial. Compactamos todas essas boas recordações dentro de um pote de 650g do doce mais delicioso que você vai provar hoje. Afinal, pelas nossas contas aqui, existem 99,9% de chances de você ter provado essa delícia pela primeira vez!'
     ),

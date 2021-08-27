@@ -11,16 +11,16 @@
                         <ul>
                         <?php if ($pagina === "index") : ?>
                             <?php  echo  '<li><a href="index.php" class="">Home</a></li>'?>
-                            <?php  echo '<li><a href="index.php" class="">Quem somos</a></li>' ?>
-                            <?php  echo  '<li><a href="../index.php" class="">Contato</a></li> '?>
-                            <?php  echo '<li><a href="../index.php" class="">Localização</a></li>' ?>
+                            <?php  echo '<li><a href="pages/quemSomos.php" class="">Quem somos</a></li>' ?>
+                            <?php  echo  '<li><a href="pages/contato.php" class="">Contato</a></li> '?>
+                           
                         
                         <?php endif; ?>
                         <?php if ($pagina === "quemSomos" || $pagina === "produto" || $pagina === "contato") : ?>
-                            <?php  echo  '<li><a href="index.php" class="">Home</a></li>'?>
-                            <?php  echo '<li><a href="index.php" class="">Quem somos</a></li>' ?>
-                            <?php  echo  '<li><a href="index.php" class="">Contato</a></li> '?>
-                            <?php  echo '<li><a href="index.php" class="">Localização</a></li>' ?>
+                            <?php  echo  '<li><a href="../index.php" class="">Home</a></li>'?>
+                            <?php  echo '<li><a href="../pages/quemSomos.php" class="">Quem somos</a></li>' ?>
+                            <?php  echo  '<li><a href="../pages/contato.php" class="">Contato</a></li> '?>
+                        
                         <?php endif; ?>
                           
                         </ul>
